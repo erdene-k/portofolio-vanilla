@@ -3,3 +3,27 @@
     padding: 0;
     box-sizing: border-box;
   }
+  header{
+    display: flex;
+    justify-content: center;
+   
+    margin: 20px 0;
+    a{
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 600px;
+      font-family: "Lato", sans-serif;
+      padding: 8px 14px;
+    }
+    a:hover{
+      background-color: #121212;
+      border: 1px solid #3B3B3B;
+      border-radius: 8px;
+      transition: 0.05s;
+    }
+  }
+  body{
+    background-color: #0A0A0A;
+  }
+  
